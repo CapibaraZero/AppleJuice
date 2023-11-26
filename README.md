@@ -1,5 +1,6 @@
-# SourApple
+# AppleJuice
 
+AppleJuice refactored to fit for CapibaraZero fw.
 
 > ### 🚫 Warning
 > Only use this on devices you own or when you have permisson to use it.\
@@ -19,20 +20,10 @@ ESP32-S3: <br>
 ESP-WROOM-32: <br>
 • iPhone 12 Pro - iOS 17.0 (21A329)<br>
 
-RPi 4: <br>
-• iPhone XS - iOS 17.0 (21A329)<br>
-• iPhone 12 Pro - iOS 17.1 Beta 2
-
 # Behavior
-The iPhone starts to freeze after a few seconds of it getting spammed with BLE pairing requests. After a random looking amount of time the iPhone turns completely black and you can now force restart it (Volume UP, Volume Down, Hold power button), or, alternatively, wait for it to restart by itself. While testing (on an ESP32-S3), it reaches stable temps at ~57c, so heat shouldn't be of concern. Some PI models report to get a little bit hotter than that, however it still should not be an issue.
+The iPhone starts to freeze after a few seconds of it getting spammed with BLE pairing requests. After a random looking amount of time the iPhone turns completely black and you can now force restart it (Volume UP, Volume Down, Hold power button), or, alternatively, wait for it to restart by itself.
 
 # Contributors:
 <a href="https://github.com/ECTO-1A">­@ECTO-1A</a>: Found the exploit<br>
 <a href="https://github.com/Willy-JL">­@WillyJL</a>: Portet the exploit to Flipper Zero<br>
-<a href="https://github.com/Amachik">­@Amachik</a>: Helped make the RPi scripts<br>
-
-# Things you don't want to know
-I spilled coffee all over a lot of electronics while writing this :(
-
-# Need help?
-My discord if you need help: rapierxbox
+<a href="https://github.com/RapierXbox">@RapierXbox</a>: Originally wrote this exploit for ESP32

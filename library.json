@@ -1,0 +1,21 @@
+{
+    "name": "AppleJuice",
+    "keywords": "bluetooth, applejuice, esp32",
+    "description": "Crashes iOS 17 Devices using a ESP32",
+    "authors":
+	{
+		"name": "Andreock",
+		"maintainer": true
+	},
+	"repository":
+    {
+        "type": "git",
+        "url": "https://github.com/CapibaraZero/AppleJuice.git"
+    },
+    "version": "1.0",
+    "frameworks": "arduino",
+    "dependencies":
+	{
+		"h2zero/NimBLE-Arduino": "^1.4.1"
+	}
+}
