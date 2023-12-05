@@ -1,7 +1,7 @@
 /*
  * This file is part of the Capibara zero project(https://capibarazero.github.io/).
  * Copyright (c) 2023 Andrea Canale.
- * Copyright (c) RapierXbox
+ * Copyright (c) 2023 RapierXbox
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,6 +16,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef APPLEJUICE_H
+#define APPLEJUICE_H
 #include <NimBLEDevice.h>
 
 class AppleJuice
@@ -29,3 +31,4 @@ public:
     ~AppleJuice();
     void attack();
 };
+#endif
